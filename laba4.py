@@ -7,7 +7,7 @@ from square import area_square, perimeter_square
 
 class TestSquare(unittest.TestCase) :
     def test_square_area(self) :
-        self.assertEqual(area_square(1),1)
+        self.assertEqual(area_square(1),2)
         self.assertEqual(area_square(4),16)
         self.assertEqual(area_square(5),25)
         self.assertEqual(area_square(0),0)
